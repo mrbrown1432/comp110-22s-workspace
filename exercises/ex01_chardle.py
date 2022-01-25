@@ -38,4 +38,4 @@ else:
     if instance_count == 1:
         print(str(instance_count) + " instance of " + user_name1 + " found in " + user_name)
     else:
-        print(str(instance_count) + " instance of " + user_name1 + " found in " + user_name)
+        print(str(instance_count) + " instances of " + user_name1 + " found in " + user_name)
