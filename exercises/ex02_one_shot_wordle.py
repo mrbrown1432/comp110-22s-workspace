@@ -14,10 +14,10 @@ while len(user_name) != 6:
         if len(user_name) > 6:
             user_name: str = input("That was not 6 letters! Try again: ")
 
-while len(user_name) == 6:
+if user_name[1] == Secret[1]:
     if (user_name) == Secret:
-        print("Woo! You got it!") 
-        exit()
+    print("Woo! You got it!") 
+    exit()
     else:
-        print("Not quite. Play again soon!") 
-        exit()
+    print("Not quite. Play again soon!") 
+    exit()
