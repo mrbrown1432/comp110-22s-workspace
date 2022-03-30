@@ -81,6 +81,7 @@ def small_square(house: Turtle, x: float, y: float) -> None:
 
 
 def main() -> None:
+    """Function to draw entire scene."""
     pen_setup: Turtle = Turtle()            
     draw_rectangle(pen_setup, -300, 25) 
 
