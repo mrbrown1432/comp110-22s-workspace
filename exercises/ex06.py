@@ -30,7 +30,7 @@ def favorite_color(favorite_color_dictionary: dict[str, str]) -> str:
     return outcome
 
 
-def count(list[str]) -> [dict[str, int]]:
+def count(dictionary: list[str]) -> [dict[str, int]]:
     """When given a list of stings, the dictionary will reflect the number of times the string was lited in the list. """
     dictionary: dict[str, int]
     dictionary = dict()
